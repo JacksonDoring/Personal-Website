@@ -1,0 +1,225 @@
+/*Styling for the navigation, start------------------------*/
+p2{
+	text-align: center;
+	color: black;
+	font-size: 200px;
+    font-family: "Arial", Sans-serif;
+    padding: 5px;
+}
+body{
+	background-color: white;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: black;
+}
+
+#navi {
+    float: left;
+}
+
+#navi a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#menu:hover:not(.active) {
+    background-color: deepskyblue;
+}
+
+.active {
+    background-color: deepskyblue;
+}
+
+#menu{
+    background-color: white;
+    width: 100%;
+    border: 0px solid white;
+    padding: 10px;
+    margin: 5px;
+    font-size: 40px;
+}
+
+#name{
+    background-color: white;
+    width: 130%;
+    border: 4px solid white;
+    padding: 0px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#gap{
+    padding: 300px;
+}
+
+#header{
+    padding-bottom: 400px;
+    border-bottom: 5px solid;
+    background-color: #9b989a;
+}
+/*Styling for the navigation, end--------------------------*/
+
+p{
+    height: auto;
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left: 25%;
+}
+
+/*Styling for the projects buttons, start------------------------*/
+#t01{
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 80px;
+    font-size: 50px;
+}
+
+#t01 th{
+    color: black;
+    width: 50%;
+    font-weight: normal;
+
+}
+
+#t01 th, td {
+    text-align: left;
+    padding: 20px;
+    border: black;
+    border-left: 4px solid deepskyblue;
+    background-color: #f4f7ff;
+}
+
+#t03 tr:hover{
+    background-color: #058fbc;
+}
+
+h3{
+    font-size: 70px;
+}
+/*Styling for the projects buttons, end--------------------------*/
+
+/*Styling for the about tables, start----------------------------*/
+#t02{
+    width: 70%;
+    padding: 15px;
+    border-left: 4px solid deepskyblue;
+    background-color: #f4f7ff;
+    margin-bottom: 80px;
+    font-size: 30px;
+}
+
+#t02 th{
+    color: black;
+    width: 50%;
+
+}
+
+#t02 th, td {
+    text-align: left;
+    padding-bottom: 20px;
+    border: black;
+}
+
+h2{
+    font-size: 40px;
+}
+/*Styling for the about tables, end------------------------------*/
+
+/*Styling the resume link, start---------------------------------*/
+#resume{
+    background-color: #f4f7ff;
+    color: black;
+    padding: 20px;
+    font-size: 50px;
+    text-decoration: none;
+    border-left: 4px solid deepskyblue;
+}
+
+#space{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+/*Styling the resume link, end-----------------------------------*/
+
+/*Styling the lists in Experience, start-------------------------*/
+#experience{
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+#experience li:not(:last-child){
+    padding-bottom: 20px;
+}
+/*Styling the lists in Experience, end---------------------------*/
+
+/*Styling for Contact page, start---------------------------*/
+#t03{
+    width: 30%;
+    padding: 15px;
+    border-left: 4px solid deepskyblue;
+    background-color: #f4f7ff;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 800px;
+}
+
+#contact_space{
+    padding-bottom: 300px;
+    text-align: center;
+    padding
+}
+/*Styling for Contact page, end-----------------------------*/
+
+.photos{
+    display:none;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+.sliding_photos{
+    background-color: #f4f7ff;
+    border-bottom: 4px solid deepskyblue;
+    position: relative;
+}
+
+.photo_button_left, .photo_button_right{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #f4f7ff;
+    border: 0px;
+}
+
+.photo_button_right {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.photo_button_left:hover, .photo_button_right:hover{
+    background-color: #bfd0ff;  
+}

@@ -1,0 +1,59 @@
+#submit {
+    background-color: #f2f2f2;
+    color: deepskyblue;
+    border-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: <?php echo $_COOKIE['H']; ?>
+}
+
+h2 {
+    text-align: center;
+    font-size: 38px;
+    font-family: sans-serif;
+}
+
+#banner {
+    padding: 0px;
+}
+
+/*navigation bar, start*/
+
+#topnav {
+    background-color: #e6e6e6;
+    overflow: hidden;
+}
+
+#topnav a {
+    float: left;
+    display: block;
+    color: deepskyblue;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#topnav a:hover {
+    background-color: deepskyblue;
+    color: black;
+}
+
+#topnav a:active {
+    background-color: black;
+    color: deepskyblue;
+}
+
+/*navigation bar, end*/
+
+#array {
+    text-align: center;
+}
+
+#image{
+    text-align: center;
+    align-content: center;
+}
